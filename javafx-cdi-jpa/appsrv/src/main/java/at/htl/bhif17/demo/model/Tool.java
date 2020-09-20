@@ -12,7 +12,7 @@ public class Tool {
     private Integer id;
     private String name;
     private String description;
-    private String toolNr;
+    private Integer toolNr;
 
     public Integer getId() {
         return id;
@@ -38,11 +38,11 @@ public class Tool {
         this.description = description;
     }
 
-    public String getToolNr() {
+    public Integer getToolNr() {
         return toolNr;
     }
 
-    public void setToolNr(String toolNr) {
+    public void setToolNr(Integer toolNr) {
         this.toolNr = toolNr;
     }
 }

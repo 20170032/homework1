@@ -1,7 +1,3 @@
-INSERT INTO School(name, street) values('HTL-Perg', 'Machlandstr. 48');
-INSERT INTO School(name, street) values('HTL-Leonding', 'Limesstrasse 8-12');
-
-INSERT INTO db.Person(LastName, FirstName, MatNr, school_id) VALUES('Doe', 'John', '1234', 1);
-INSERT INTO db.Person(LastName, FirstName, MatNr, school_id) VALUES('Roe', 'Jane', '5678', 1);
-INSERT INTO db.Person(LastName, FirstName, MatNr, school_id) VALUES('Sixpack', 'Joe', '9012', 1);
-
+INSERT INTO db.Tool(name, description, toolNr) values ('test1', 'testdec1', 001);
+INSERT INTO db.Tool(name, description, toolNr) values ('test2', 'testdec2', 002);
+INSERT INTO db.Tool(name, description, toolNr) values ('test3', 'testdec3', 003);

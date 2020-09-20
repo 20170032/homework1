@@ -20,4 +20,7 @@ public class ToolDao {
     public Tool save(Tool t){
         return em.merge(t);
     }
+    public Tool findById(int id) {
+        return em.find(Tool.class, id);
+    }
 }
